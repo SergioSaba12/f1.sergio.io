@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz Día de la Madre!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #fffbe9;
+      color: #7c4d00;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .madre-bg {
+      background: #fff9f3;
+      border-radius: 32px;
+      box-shadow: 0 8px 32px 0 rgba(124,77,0,0.10);
+      padding: 3rem 2rem 2rem 2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      position: relative;
+      overflow: hidden;
+      border: 2px solid #ffd180;
+    }
+    .madre-title {
+      color: #ff7043;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 2.5rem;
+      margin-bottom: 1.2rem;
+      text-shadow: 0 2px 8px #ffd18055;
+    }
+    .madre-frase {
+      color: #7c4d00;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+    .madre-img {
+      width: 160px;
+      border-radius: 20px;
+      border: 4px solid #ffd180;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 12px #ffd18055;
+      background: #fff;
+      padding: 8px;
+    }
+    .madre-carta {
+      background: #fffbe9;
+      border-radius: 20px;
+      box-shadow: 0 2px 12px rgba(124,77,0,0.10);
+      color: #7c4d00;
+      border: 2px solid #ffd180;
+      padding: 2rem 1.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      font-size: 1.15rem;
+      line-height: 1.7;
+    }
+    .firma {
+      color: #ff7043;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-top: 2rem;
+    }
+    .corazon {
+      font-size: 2.2rem;
+      color: #ff7043;
+      margin-bottom: 1rem;
+      animation: latido 1.2s infinite;
+      display: inline-block;
+    }
+    @keyframes latido {
+      0%, 100% { transform: scale(1);}
+      20% { transform: scale(1.2);}
+      40% { transform: scale(1);}
+    }
+    @media (max-width: 900px) {
+      .madre-bg { padding: 1.2rem 0.5rem 1.5rem 0.5rem; }
+      .madre-img { width: 100px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container madre-bg text-center">
+    <div class="corazon">❤️</div>
+    <h1 class="madre-title">¡Feliz Día de la Madre!</h1>
+    <div class="madre-frase">
+      “Gracias por tu abrazo, tu sonrisa y tu amor incondicional.”
+    </div>
+    <img src="./img/imagen.jpg" alt="Madre e hijo" class="madre-img">
+    <div class="madre-carta mx-auto">
+      Querida mamá,<br><br>
+      Hoy celebramos tu día, pero para mí eres especial todos los días. Gracias por tus consejos, tus risas, tus historias y por estar siempre a mi lado.<br><br>
+      Eres el corazón de nuestra familia y la razón de muchos de mis mejores recuerdos.<br><br>
+      ¡Te quiero con todo mi corazón!
+      <div class="firma">Con cariño,<br>Sergio 🥸</div>
+    </div>
+    <div class="mt-4">
+      <h5 style="color:#ff7043;font-weight:bold;">¡Disfruta tu día rodeada de quienes te queremos!</h5>
+      <img src="./img/katy.jpg" alt="Madre e hijo" class="madre-img">
+    </div>
+  </div>
+</body>
+</html>
